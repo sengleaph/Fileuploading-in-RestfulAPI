@@ -14,7 +14,7 @@ import java.nio.file.StandardCopyOption;
 @RestController
 public class FileUploadController {
     @PostMapping("/upload-file")
-    public String uploadImage(@RequestParam("file")MultipartFile file) throws IOException {
+    public String uploadImage(@RequestParam("sifu")MultipartFile file) throws IOException {
 
         System.out.println(file.getOriginalFilename());
         System.out.println(file.getName());
