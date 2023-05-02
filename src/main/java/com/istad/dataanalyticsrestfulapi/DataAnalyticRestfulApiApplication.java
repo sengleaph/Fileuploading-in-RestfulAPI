@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DataAnalyticsRestfulApiApplication {
+public class DataAnalyticRestfulApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DataAnalyticsRestfulApiApplication.class, args);
+        SpringApplication.run(DataAnalyticRestfulApiApplication.class, args);
     }
 
 }

@@ -1,11 +1,11 @@
 package com.istad.dataanalyticsrestfulapi.controller;
 
 
-import com.istad.dataanalyticrestfulapi.model.User;
-import com.istad.dataanalyticrestfulapi.model.UserAccount;
-import com.istad.dataanalyticrestfulapi.model.request.UserRequest;
-import com.istad.dataanalyticrestfulapi.service.UserService;
-import com.istad.dataanalyticrestfulapi.utils.Response;
+import com.istad.dataanalyticsrestfulapi.model.User;
+import com.istad.dataanalyticsrestfulapi.model.UserAccount;
+import com.istad.dataanalyticsrestfulapi.model.request.UserRequest;
+import com.istad.dataanalyticsrestfulapi.service.UserService;
+import com.istad.dataanalyticsrestfulapi.utils.Response;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
 
